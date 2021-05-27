@@ -18,4 +18,4 @@ func main() {
 
 }
 
-// This will overflows the int.
+// This will overflow the int.
