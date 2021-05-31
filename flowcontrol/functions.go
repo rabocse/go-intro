@@ -59,7 +59,7 @@ func main() {
 
 	fmt.Println("============================ 5- display ===========================")
 
-	result1, result2 := display(29, 31)
+	result1, result2 := display(29, 31) // Provide, blank identifier example.
 
 	fmt.Println(result1)
 	fmt.Println(result2)
