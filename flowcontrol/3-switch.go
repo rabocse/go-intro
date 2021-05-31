@@ -2,12 +2,13 @@ package main
 
 import (
 	"fmt"
+	"time"
 )
 
 func main() {
 
 	fmt.Println(" ")
-	fmt.Println("=============================== Switch ===========================================")
+	fmt.Println("=============================== 1- Switch ===========================================")
 
 	// Switch case
 
@@ -26,7 +27,7 @@ func main() {
 	}
 
 	fmt.Println(" ")
-	fmt.Println("================= Switch with no condition ==========================================")
+	fmt.Println("================= 2.1- Switch with no condition ==========================================")
 
 	// Switch with no condition = switch true
 
@@ -41,6 +42,19 @@ func main() {
 		fmt.Println("The number is higher than 100")
 	default:
 		fmt.Println("The number is 100")
+	}
+
+	fmt.Println(" ")
+	fmt.Println("================= 2.2- Switch with no condition ==========================================")
+
+	t := time.Now()
+	switch {
+	case t.Hour() < 12:
+		fmt.Println("Good morning!")
+	case t.Hour() < 17:
+		fmt.Println("Good afternoon.")
+	default:
+		fmt.Println("Good evening.")
 	}
 
 }
