@@ -1,8 +1,6 @@
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
 func swap(x, y string) (string, string) { // Notice how the return was defined as two strings (string, string) without a names
 
@@ -13,5 +11,6 @@ func swap(x, y string) (string, string) { // Notice how the return was defined a
 func main() {
 
 	a, b := swap("hello", "world")
+
 	fmt.Println(a, b)
 }

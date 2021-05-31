@@ -22,7 +22,7 @@ __2.__ sandbox.go
 3. exported-name.go   
     
 4. functions.go     
-    1. multiple-results.go   
+    1. multiple-results.go   PENDING: (Why before variables ?)
          
 5. variables.go 
     1. variable-with-initializers.go 

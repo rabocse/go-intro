@@ -16,5 +16,4 @@ func main() {
 
 	fmt.Println(i, j, c, k, python, java)
 
-	fmt.Printf("The type for k is %T", k)
 }

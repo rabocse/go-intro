@@ -2,12 +2,17 @@ package main
 
 import "fmt"
 
-var c, python, java bool // "var" keyword to declare at package level
+var c bool = true
+
+var python, java bool = false, true // "var" keyword to declare at package level
 
 func main() {
-	var i int // "var" to decleare at function level
 
-	fmt.Println(i, c, python, java)
+	var ruby string = "Ruby"
+
+	var i int = 10 // "var" to decleare at function level
+
+	fmt.Println(i, c, python, java, ruby)
 }
 
 // More important, "var" creates the variable with a "zero value"
