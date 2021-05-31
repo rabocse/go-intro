@@ -7,9 +7,9 @@
 ## __Welcome__
 ---
 
-1. hello.go
+__1.__ hello.go
 
-2. sandbox.go
+__2.__ sandbox.go
 
 ---
 ## __Basic__
