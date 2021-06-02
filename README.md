@@ -1,19 +1,34 @@
 # __Intro to Go__
 ---
 
-![Intro to Go](https://www.hardwinsoftware.com/blog/wp-content/uploads/2018/02/golang-gopher.png)
+![Intro to Go](https://www.hardwinsoftware.com/blog/wp-content/uploads/2018/02/golang-gopher.png)   
+
+// Picture needs to be replaced !!!! 
+
 
 ---
-## __Welcome__
+## Index ???? 
 ---
 
-__1.__ hello.go
 
-__2.__ sandbox.go
 
 ---
-## __Basic__
+### __1-Basics__
 ---
+
+0.  hello.go
+
+```go
+
+package main
+
+import "fmt"
+
+func main() {
+
+	fmt.Println("Hello, Hola, Holis")
+}
+```
 
 1. packages.go 
    
@@ -35,7 +50,7 @@ __2.__ sandbox.go
     8. numeric-constants.go
 
  ---
-## __Flowcontrol__
+### __2-Flowcontrol__
 
 1. for.go
     1. for-continued.go
@@ -52,13 +67,6 @@ __2.__ sandbox.go
 5. Defer (pending)
     1. Stacking defers
 
-
-
----
-## __Data Structures__
-
-   
----
 
 
 
