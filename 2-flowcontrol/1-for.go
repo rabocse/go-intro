@@ -8,11 +8,11 @@ func main() {
 
 	sum := 0
 
-	for i := 0; i < 10; i++ {
+	for number := 0; number < 10; number++ {
 
-		sum += i // sum = sum + i
+		sum += number // sum = sum + i
 
-		fmt.Println(i)
+		fmt.Println(number)
 	}
 
 	fmt.Println("=============== SUM ===========================")

@@ -4,8 +4,7 @@ import "fmt"
 
 func main() {
 
-	/*defer */
-	fmt.Println("World")
+	defer fmt.Println("World")
 
 	fmt.Println("Hello")
 }

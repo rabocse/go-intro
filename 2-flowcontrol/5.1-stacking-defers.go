@@ -6,9 +6,9 @@ func main() {
 
 	fmt.Println("Counting...")
 
-	for i := 1; i < 10; i++ {
+	for num := 1; num < 10; num++ {
 
-		defer fmt.Println(i)
+		defer fmt.Println(num)
 	}
 
 	fmt.Println("Done")

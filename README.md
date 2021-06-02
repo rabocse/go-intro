@@ -510,14 +510,36 @@ func main() {
 
 ```
 
- ---
+---
 ### __2-Flowcontrol__
+---
 
 
 __for.go__
 
 ```go
 
+package main
+
+import "fmt"
+
+func main() {
+
+	fmt.Println("=============== COUNT ===========================")
+
+	sum := 0
+
+	for number := 0; number < 10; number++ {
+
+		sum += number // sum = sum + i
+
+		fmt.Println(number)
+	}
+
+	fmt.Println("=============== SUM ===========================")
+	fmt.Println(sum)
+
+}
 
 
 ```
@@ -528,7 +550,24 @@ __for-continued.go__
 
 ```go
 
+package main
 
+import "fmt"
+
+func main() {
+
+	fmt.Println("======================= LOOPING... ===========================")
+
+	sum := 1
+
+	for sum < 10 {
+		sum += sum
+		fmt.Println(sum)
+	}
+
+	fmt.Println("======================= TOTAL =================================")
+	fmt.Println(sum)
+}
 
 ```
 
@@ -537,6 +576,21 @@ __while.go__
 
 ```go
 
+package main
+
+import "fmt"
+
+func main() {
+
+	sum := 1
+
+	for sum < 10 { // "while" sum < 10, then ...
+
+		sum += sum
+	}
+
+	fmt.Println(sum)
+}
 
 
 ```
@@ -545,6 +599,18 @@ __forever.go__
 
 ```go
 
+package main
+
+import "fmt"
+
+func main() {
+
+	for {
+
+		fmt.Println("Looping forever ... !!! XD ")
+
+	}
+}
 
 
 ```
@@ -553,6 +619,26 @@ __if.go__
 
 ```go
 
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+
+	num := 0
+
+	if num < 0 {
+
+		fmt.Println("It is a negative number")
+	} else if num > 0 {
+		fmt.Println("it is a positive number")
+	} else {
+		fmt.Println("The number is zero !")
+	}
+
+}
 
 
 ```
@@ -560,6 +646,36 @@ __if.go__
 __if-with-a-short-declaration.go__
 
 ```go
+
+package main
+
+import "fmt"
+
+// printB4 returns a "delimiter string" ( =================================== )
+func printB4() string {
+
+	y := "=========================="
+
+	return y
+}
+
+func main() {
+
+	var num int = 50 // Change the value to play with the condition num > 100
+
+	if delimiter := printB4(); num > 100 {
+
+		fmt.Println(delimiter) // Only reason why we can print "delimiter" is because is executed before the condition  (x > 100). In other words, it does not depend on it.
+		fmt.Println("Condition was \"TRUE\"")
+
+	} else {
+		fmt.Println(delimiter)
+		fmt.Println("Condition was \"FALSE\"")
+	}
+
+	// fmt.Println(delimiter) // Variables declared by the statement are only in scope until the end of the if.
+
+}
 
 
 
@@ -586,13 +702,39 @@ __Defer (pending)__
 
 ```go
 
+package main
 
+import "fmt"
+
+func main() {
+
+	defer fmt.Println("World")
+
+	fmt.Println("Hello")
+}
 
 ```
 
 __Stacking defers__
 
 ```go
+
+package main
+
+import "fmt"
+
+func main() {
+
+	fmt.Println("Counting...")
+
+	for num := 1; num < 10; num++ {
+
+		defer fmt.Println(num)
+	}
+
+	fmt.Println("Done")
+
+}
 
 
 

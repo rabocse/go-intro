@@ -2,12 +2,6 @@ package main
 
 import "fmt"
 
-/*
-
-"for" loop without "init" and "post"
-
-*/
-
 func main() {
 
 	fmt.Println("======================= LOOPING... ===========================")
@@ -22,3 +16,9 @@ func main() {
 	fmt.Println("======================= TOTAL =================================")
 	fmt.Println(sum)
 }
+
+/*
+
+"for" loop without "init" and "post"
+
+*/

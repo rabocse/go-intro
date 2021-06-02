@@ -6,15 +6,15 @@ import (
 
 func main() {
 
-	x := 0 // Play with "x"
+	num := 0
 
-	if x < 0 {
+	if num < 0 {
 
 		fmt.Println("It is a negative number")
-	} else if x > 0 {
+	} else if num > 0 {
 		fmt.Println("it is a positive number")
 	} else {
-		fmt.Println("It is zero !")
+		fmt.Println("The number is zero !")
 	}
 
 }
