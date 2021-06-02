@@ -16,7 +16,7 @@
 ### __1-Basics__
 ---
 
-0.  hello.go
+0. __hello.go__
 
 ```go
 
@@ -26,20 +26,136 @@ import "fmt"
 
 func main() {
 
-	fmt.Println("Hello, Hola, Holis")
+	fmt.Println("Hello, Hola")
 }
 ```
 
-1. packages.go 
+
+1. __packages.go__ 
    
-2. imports.go  
+
+```go
+package main 
+
+import ( 
+	"fmt"      
+	"math/rand" 
+)
+
+func main() {
+
+	fmt.Println("My favorite number is", rand.Intn(10)) 
+}
+
+```
+
+
+2. __imports.go__
+
+```go
+
+package main
+
+import (
+	"fmt"
+	"math"
+)
+
+func main() {
+
+	fmt.Printf("Now you have %g problems. \n ", math.Sqrt(16)) 
+}
+```
+
    
-3. exported-name.go   
+3. __exported-name.go__
+
+```go
+
+package main
+
+import (
+	"fmt"
+	"math"
+)
+
+func main() {
+
+	fmt.Println(math.Pi)
+}
+
+```
+
+
     
-4. functions.go     
-    1. multiple-results.go   PENDING: (Why before variables ?)
+4. __functions.go__ 
+
+
+```go
+
+package main
+
+import (
+	"fmt"
+)
+
+func add(x int, y int) int { 
+
+	return x + y
+
+}
+
+func main() {
+
+	fmt.Println(add(3, 15))
+}
+
+
+```
+
+__4.1_multiple-results.go__
+
+
+```go 
+
+package main
+
+import "fmt"
+
+func calc(x int, y int) (a int, b string) {
+
+	a = x + y
+
+	if a > 0 {
+
+		b = "The result is a positive number"
+		return a, b
+	} else if a < 0 {
+		b = "The result is a negative number"
+		return a, b
+	} else {
+
+		b = "The result is zero"
+		return a, b
+	}
+}
+
+func main() {
+
+	total, info := calc(-5, 5)
+
+	fmt.Println("========================================")
+	fmt.Printf("The result was: %v \n", total)
+	fmt.Println("========================================")
+	fmt.Println(info)
+}
+
+```
+
+
+
          
-5. variables.go 
+1. variables.go 
     1. variable-with-initializers.go 
     2. short-variable-declaration.go 
     3. basic-types.go

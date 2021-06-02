@@ -2,15 +2,30 @@ package main
 
 import "fmt"
 
-func swap(x, y string) (string, string) { // Notice how the return was defined as two strings (string, string) without a names
+func calc(x int, y int) (a int, b string) {
 
-	return y, x // A function can return any number of results.
+	a = x + y
 
+	if a > 0 {
+
+		b = "The result is a positive number"
+		return a, b
+	} else if a < 0 {
+		b = "The result is a negative number"
+		return a, b
+	} else {
+
+		b = "The result is zero"
+		return a, b
+	}
 }
 
 func main() {
 
-	a, b := swap("hello", "world")
+	total, info := calc(-5, 5)
 
-	fmt.Println(a, b)
+	fmt.Println("========================================")
+	fmt.Printf("The result was: %v \n", total)
+	fmt.Println("========================================")
+	fmt.Println(info)
 }
