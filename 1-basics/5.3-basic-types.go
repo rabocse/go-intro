@@ -30,7 +30,7 @@ var (
 	value12 float32 = 37.5
 	value13 float64 = 37.5
 
-	// Byte and Rune are aliases
+	// Byte and Rune are aliases for uint8 and int32 respectively.
 	value14 byte = 255
 	value15 rune = 'k'
 
