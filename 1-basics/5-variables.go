@@ -2,17 +2,50 @@ package main
 
 import "fmt"
 
-var c bool = true
+// Variables are declared but not manually initialized (nothing was assigned)
 
-var python, java bool = false, true // "var" keyword to declare at package level
+var NumberOfApples int
+
+var NumberOfOranges int
+
+var tempKrakow float32
+
+var tempLisbon float32
+
+var carColor string
+
+var wallColor string
+
+var CiscoRocks bool
+
+var KrakowRocks bool
 
 func main() {
 
-	var ruby string = "Ruby"
+	var NumberOfPears int
+	var tempBrussels float32
+	var bloodColor string
+	var LisbonRocks bool
 
-	var i int = 10 // "var" to decleare at function level
+	fmt.Println("============= Apples and Oranges =============================")
+	fmt.Println(NumberOfApples)
+	fmt.Println(NumberOfOranges)
+	fmt.Println("============= Temp. Krakow and Lisbon =========================")
+	fmt.Println(tempKrakow)
+	fmt.Println(tempLisbon)
+	fmt.Println("============= Car and Wall Color =============================")
+	fmt.Println(carColor)
+	fmt.Println(wallColor)
+	fmt.Println("============= Do they rock ? ===================================")
+	fmt.Println(CiscoRocks)
+	fmt.Println(KrakowRocks)
+	fmt.Println("============= Fruit ===========================================")
+	fmt.Println(NumberOfPears)
+	fmt.Println("============= Temp ============================================")
+	fmt.Println(tempBrussels)
+	fmt.Println("============= Color ===========================================")
+	fmt.Println(bloodColor)
+	fmt.Println("============= Do they rock ? ===================================")
+	fmt.Print(LisbonRocks)
 
-	fmt.Println(i, c, python, java, ruby)
 }
-
-// More important, "var" creates the variable with a "zero value"

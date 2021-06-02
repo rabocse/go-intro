@@ -16,7 +16,7 @@
 ### __1-Basics__
 ---
 
-0. __hello.go__
+__hello.go__
 
 ```go
 
@@ -31,7 +31,7 @@ func main() {
 ```
 
 
-1. __packages.go__ 
+__packages.go__ 
    
 
 ```go
@@ -50,7 +50,7 @@ func main() {
 ```
 
 
-2. __imports.go__
+__imports.go__
 
 ```go
 
@@ -68,7 +68,7 @@ func main() {
 ```
 
    
-3. __exported-name.go__
+__exported-name.go__
 
 ```go
 
@@ -88,7 +88,7 @@ func main() {
 
 
     
-4. __functions.go__ 
+__functions.go__ 
 
 
 ```go
@@ -113,7 +113,7 @@ func main() {
 
 ```
 
-__4.1_multiple-results.go__
+__multiple-results.go__
 
 
 ```go 
@@ -155,15 +155,24 @@ func main() {
 
 
          
-1. variables.go 
-    1. variable-with-initializers.go 
-    2. short-variable-declaration.go 
-    3. basic-types.go
-    4. zero-values.go 
-    5. type-conversions.go
-    6. type-inference.go 
-    7. constants.go    
-    8. numeric-constants.go
+__variables.go__
+
+__variable-with-initializers.go__ 
+
+__short-variable-declaration.go__
+
+__basic-types.go__
+
+__zero-values.go__ 
+
+__type-conversions.go__
+
+__type-inference.go__ 
+
+__constants.go__    
+
+__numeric-constants.go__
+
 
  ---
 ### __2-Flowcontrol__
