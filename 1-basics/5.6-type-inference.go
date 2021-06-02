@@ -6,7 +6,7 @@ import (
 
 func main() {
 
-	v := 17.8 + 0.3i // change me !
+	value := 29 // change me !
 
-	fmt.Printf("v is of type %T \n", v)
+	fmt.Printf("The variable \"value\" is of type: %T \n", value)
 }

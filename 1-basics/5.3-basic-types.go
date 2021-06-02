@@ -6,15 +6,16 @@ import (
 )
 
 var ( //  variable declaration "factored" into blocks
-	ToBe   bool       = false
-	MaxInt uint64     = 1<<64 - 1
-	z      complex128 = cmplx.Sqrt(-5 + 12i)
+	CiscoRocks bool       = true
+	tempKrakow float32    = 32.5
+	MaxInt     uint64     = 1<<64 - 1
+	z          complex128 = cmplx.Sqrt(-5 + 12i)
 )
 
 func main() {
 
-	fmt.Printf("TYPE: %T 			VALUE: %v\n", ToBe, ToBe)
-	fmt.Printf("TYPE: %T 			VALUE: %v\n", MaxInt, MaxInt)
+	fmt.Printf("TYPE: %T 			VALUE: %v\n", CiscoRocks, CiscoRocks)
+	fmt.Printf("TYPE: %T 			VALUE: %v\n", tempKrakow, tempKrakow)
 	fmt.Printf("TYPE: %T			VALUE: %v\n", z, z)
 
 }

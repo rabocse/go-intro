@@ -18,7 +18,7 @@ var wallColor string = "Green"
 
 var CiscoRocks bool = true
 
-var KrakowRocks bool = true
+var KrakowRocks bool = false
 
 func main() {
 

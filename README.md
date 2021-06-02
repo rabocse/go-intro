@@ -153,21 +153,232 @@ func main() {
 ```
 
 
-
          
 __variables.go__
 
+```go
+package main
+
+import "fmt"
+
+// Variables are declared but not manually initialized (nothing was assigned)
+
+var NumberOfApples int
+
+var NumberOfOranges int
+
+var tempKrakow float32
+
+var tempLisbon float32
+
+var carColor string
+
+var wallColor string
+
+var CiscoRocks bool
+
+var KrakowRocks bool
+
+func main() {
+
+	var NumberOfPears int
+	var tempBrussels float32
+	var bloodColor string
+	var LisbonRocks bool
+
+	fmt.Println("============= Apples and Oranges =============================")
+	fmt.Println(NumberOfApples)
+	fmt.Println(NumberOfOranges)
+	fmt.Println("============= Temp. Krakow and Lisbon =========================")
+	fmt.Println(tempKrakow)
+	fmt.Println(tempLisbon)
+	fmt.Println("============= Car and Wall Color =============================")
+	fmt.Println(carColor)
+	fmt.Println(wallColor)
+	fmt.Println("============= Do they rock ? ===================================")
+	fmt.Println(CiscoRocks)
+	fmt.Println(KrakowRocks)
+	fmt.Println("============= Fruit ===========================================")
+	fmt.Println(NumberOfPears)
+	fmt.Println("============= Temp ============================================")
+	fmt.Println(tempBrussels)
+	fmt.Println("============= Color ===========================================")
+	fmt.Println(bloodColor)
+	fmt.Println("============= Do they rock ? ===================================")
+	fmt.Print(LisbonRocks)
+
+}
+
+
+```
+
+
 __variable-with-initializers.go__ 
+
+
+```go
+package main
+
+import "fmt"
+
+// Variables are declared and initialized.
+
+var NumberOfApples int = 5
+
+var NumberOfOranges int = 10
+
+var tempKrakow float32 = 32.5
+
+var tempLisbon float32 = 25.7
+
+var carColor string = "White"
+
+var wallColor string = "Green"
+
+var CiscoRocks bool = true
+
+var KrakowRocks bool = false
+
+func main() {
+
+	var NumberOfPears int = 7
+	var tempBrussels float32 = 21.3
+	var bloodColor string = "Red"
+	var LisbonRocks bool = false
+
+	fmt.Println("============= Apples and Oranges =============================")
+	fmt.Println(NumberOfApples)
+	fmt.Println(NumberOfOranges)
+	fmt.Println("============= Temp. Krakow and Lisbon ========================")
+	fmt.Println(tempKrakow)
+	fmt.Println(tempLisbon)
+	fmt.Println("============= Car and Wall Color =============================")
+	fmt.Println(carColor)
+	fmt.Println(wallColor)
+	fmt.Println("============= Cisco & Krakow. Do they rock ? =================")
+	fmt.Println(CiscoRocks)
+	fmt.Println(KrakowRocks)
+	fmt.Println("============= Pears ==========================================")
+	fmt.Println(NumberOfPears)
+	fmt.Println("============= Temp. Brussels ==================================")
+	fmt.Println(tempBrussels)
+	fmt.Println("============= Blood Color =====================================")
+	fmt.Println(bloodColor)
+	fmt.Println("============= Lisbon rocks ? ==================================")
+	fmt.Print(LisbonRocks)
+
+}
+
+```
+
+__zero-values.go__
+
+```go
+
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+
+	var i int
+	var f float64
+	var b bool
+	var s string
+	fmt.Printf("%v %v %v %q\n", i, f, b, s)
+}
+
+```
+
 
 __short-variable-declaration.go__
 
+
+```go
+
+package main
+
+import "fmt"
+
+// NumberOfCars := 2
+
+func main() {
+
+	// short-declaration notation ( := ) is used instead of "var" keyword.
+
+	NumberOfApples := 5
+	NumberOfOranges := 10
+	tempKrakow := 32.5
+	tempLisbon := 25.7
+	carColor := "White"
+	wallColor := "Green"
+	CiscoRocks := true
+	KrakowRocks := false
+	NumberOfPears := 7
+	tempBrussels := 21.3
+	bloodColor := "Red"
+	LisbonRocks := false
+
+	fmt.Println("============= Apples and Oranges =============================")
+	fmt.Println(NumberOfApples)
+	fmt.Println(NumberOfOranges)
+	fmt.Println("============= Temp. Krakow and Lisbon ========================")
+	fmt.Println(tempKrakow)
+	fmt.Println(tempLisbon)
+	fmt.Println("============= Car and Wall Color =============================")
+	fmt.Println(carColor)
+	fmt.Println(wallColor)
+	fmt.Println("============= Cisco & Krakow. Do they rock ? =================")
+	fmt.Println(CiscoRocks)
+	fmt.Println(KrakowRocks)
+	fmt.Println("============= Pears ==========================================")
+	fmt.Println(NumberOfPears)
+	fmt.Println("============= Temp. Brussels ==================================")
+	fmt.Println(tempBrussels)
+	fmt.Println("============= Blood Color =====================================")
+	fmt.Println(bloodColor)
+	fmt.Println("============= Lisbon rocks ? ===================================")
+	fmt.Print(LisbonRocks)
+
+}
+
+
+```
+
+__type-inference.go__ 
+
+```go
+
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+
+	value := 29 // change me !
+
+	fmt.Printf("The variable \"value\" is of type: %T \n", value)
+}
+
+
+```
+
+
+
+
 __basic-types.go__
 
-__zero-values.go__ 
+
+```go
+
+```
 
 __type-conversions.go__
 
-__type-inference.go__ 
 
 __constants.go__    
 
