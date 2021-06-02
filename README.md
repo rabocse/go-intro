@@ -368,45 +368,119 @@ func main() {
 ```
 
 
-
-
 __basic-types.go__
 
 
 ```go
 
+
+
 ```
 
 __type-conversions.go__
 
+```go
+
+
+
+```
+
 
 __constants.go__    
 
-__numeric-constants.go__
 
+```go
+
+
+
+```
 
  ---
 ### __2-Flowcontrol__
 
-1. for.go
-    1. for-continued.go
-    2. while.go
-    3. forever.go
 
-2. if.go
-    1. if-with-a-short-declaration.go
+__for.go__
 
-3. switch.go
-
-4. functions.go
-
-5. Defer (pending)
-    1. Stacking defers
+```go
 
 
 
+```
 
 
 
+__for-continued.go__
+
+```go
+
+
+
+```
+
+
+__while.go__
+
+```go
+
+
+
+```
+
+__forever.go__
+
+```go
+
+
+
+```
+
+__if.go__
+
+```go
+
+
+
+```
+
+__if-with-a-short-declaration.go__
+
+```go
+
+
+
+```
+
+
+__switch.go__
+
+```go
+
+
+
+```
+
+__functions.go__
+
+```go
+
+
+
+```
+
+__Defer (pending)__
+
+```go
+
+
+
+```
+
+__Stacking defers__
+
+```go
+
+
+
+```
 
 
