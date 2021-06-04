@@ -1,9 +1,13 @@
 
 ![Intro to Go](https://github.com/rabocse/go-intro/blob/dev/pictures/IntroToGo.png)    
 
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
 ---
 ## Index 
 ---
+<p>&nbsp;</p>
 
 - Basics:
 	- hello.go
@@ -36,10 +40,13 @@
     - stacking.defers.go
 	
 
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 
 ---
 ## __1-Basics__
 ---
+<p>&nbsp;</p>
 
 __hello.go__
 
@@ -158,6 +165,9 @@ func main() {
 ```
 ![ClassicFunction](https://github.com/rabocse/go-intro/blob/dev/pictures/ClassicFunction.png)
 
+<p>&nbsp;</p>
+
+
 __multiple-results.go__
 
 
@@ -199,7 +209,9 @@ func main() {
 
 ![MultipleOutputs](https://github.com/rabocse/go-intro/blob/dev/pictures/MultipleOutputs.png)
 
-         
+<p>&nbsp;</p>
+
+
 __variables.go__
 
 ```go
@@ -254,9 +266,8 @@ func main() {
 	fmt.Print(LisbonRocks)
 
 }
-
-
 ```
+<p>&nbsp;</p>
 
 
 __variable-with-initializers.go__ 
@@ -316,6 +327,7 @@ func main() {
 }
 
 ```
+<p>&nbsp;</p>
 
 __zero-values.go__
 
@@ -337,6 +349,7 @@ func main() {
 }
 
 ```
+<p>&nbsp;</p>
 
 
 __short-variable-declaration.go__
@@ -389,9 +402,9 @@ func main() {
 	fmt.Print(LisbonRocks)
 
 }
-
-
 ```
+
+<p>&nbsp;</p>
 
 __type-inference.go__ 
 
@@ -413,13 +426,13 @@ func main() {
 
 ```
 
+<p>&nbsp;</p>
 
 __basic-types.go__
 
 // Use a more adecuate Rune example instead of 'K'. Also explain why '' instead of "".
 
 ```go
-
 package main
 
 import (
@@ -496,15 +509,12 @@ func main() {
 	fmt.Printf("VALUE: %v				TYPE: %T \n", value17, value17)
 
 }
-
-
-
 ```
+<p>&nbsp;</p>
 
 __type-conversions.go__
 
 ```go
-
 package main
 
 import (
@@ -527,16 +537,14 @@ func main() {
 	fmt.Println(result2)
 
 }
-
-
 ```
+<p>&nbsp;</p>
 
 
 __constants.go__    
 
 
 ```go
-
 package main
 
 import "fmt"
@@ -552,18 +560,18 @@ func main() {
 	fmt.Println("Cisco rocks ?", ciscoRocks)
 
 }
-
 ```
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 
 ---
 ## __2-Flowcontrol__
 ---
-
+<p>&nbsp;</p>
 
 __for.go__
 
 ```go
-
 package main
 
 import "fmt"
@@ -585,16 +593,14 @@ func main() {
 	fmt.Println(sum)
 
 }
-
-
 ```
+<p>&nbsp;</p>
 
 
 
 __for-continued.go__
 
 ```go
-
 package main
 
 import "fmt"
@@ -613,14 +619,13 @@ func main() {
 	fmt.Println("======================= TOTAL =================================")
 	fmt.Println(sum)
 }
-
 ```
 
+<p>&nbsp;</p>
 
 __while.go__
 
 ```go
-
 package main
 
 import "fmt"
@@ -636,14 +641,13 @@ func main() {
 
 	fmt.Println(sum)
 }
-
-
 ```
+<p>&nbsp;</p>
+
 
 __forever.go__
 
 ```go
-
 package main
 
 import "fmt"
@@ -656,14 +660,13 @@ func main() {
 
 	}
 }
-
-
 ```
+<p>&nbsp;</p>
+
 
 __if.go__
 
 ```go
-
 package main
 
 import (
@@ -684,14 +687,12 @@ func main() {
 	}
 
 }
-
-
 ```
+<p>&nbsp;</p>
 
 __if-with-a-short-declaration.go__
 
 ```go
-
 package main
 
 import "fmt"
@@ -721,16 +722,13 @@ func main() {
 	// fmt.Println(delimiter) // Variables declared by the statement are only in scope until the end of the if.
 
 }
-
-
-
 ```
+<p>&nbsp;</p>
 
 
 __switch.go__
 
 ```go
-
 package main
 
 import (
@@ -741,7 +739,7 @@ import (
 func main() {
 
 	fmt.Println(" ")
-	fmt.Println("=============================== 1- Switch ===========================================")
+	fmt.Println("============================= 1- Switch ==================================")
 
 	// Switch case
 
@@ -793,11 +791,11 @@ func main() {
 }
 
 ```
+<p>&nbsp;</p>
 
 __functions.go__
 
 ```go
-
 package main
 
 import (
@@ -849,16 +847,14 @@ func main() {
 	sub(100, 10)
 
 }
-
-
 ```
+<p>&nbsp;</p>
 
 
 
 __function-with_mult-return.go__
 
 ```go
-
 package main
 
 import "fmt"
@@ -889,15 +885,13 @@ func main() {
 	// fmt.Println(result4)
 
 }
-
-
 ```
+<p>&nbsp;</p>
 
 
 __Defer (pending)__
 
 ```go
-
 package main
 
 import "fmt"
@@ -908,13 +902,12 @@ func main() {
 
 	fmt.Println("Hello")
 }
-
 ```
+<p>&nbsp;</p>
 
 __Stacking defers__
 
 ```go
-
 package main
 
 import "fmt"
@@ -931,9 +924,6 @@ func main() {
 	fmt.Println("Done")
 
 }
-
-
-
 ```
 
 
