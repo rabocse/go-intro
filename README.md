@@ -32,6 +32,10 @@ func main() {
 ```
 
 
+
+ 
+
+
 __packages.go__ 
    
 
@@ -49,6 +53,10 @@ func main() {
 }
 
 ```
+- A __package__ is a collection of code that all does similar things like formatting strings or drawing images.
+- The __package__ clause gives the name of the package that this code will become a part of.
+- The package _main_ is required if this code is going to be run from terminal. 
+
 
 
 __imports.go__
@@ -68,7 +76,7 @@ func main() {
 }
 ```
 
-![ImportPath](xxxxx) 
+![ImportPath](https://github.com/rabocse/go-intro/blob/dev/pictures/ImportPath.png) 
 
 
    
