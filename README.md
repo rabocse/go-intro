@@ -1,7 +1,7 @@
 # __Intro to Go__
 ---
 
-![Intro to Go](https://www.hardwinsoftware.com/blog/wp-content/uploads/2018/02/golang-gopher.png)   
+![Intro to Go](https://github.com/rabocse/go-intro/blob/dev/pictures/IntroToGo.png)    
 
 PENDING LIST:
 
