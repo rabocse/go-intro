@@ -1,12 +1,8 @@
 
 ![Intro to Go](https://github.com/rabocse/go-intro/blob/dev/pictures/IntroToGo.png)    
 
-PENDING LIST:
-
-
-// Use a more adecuate Rune example instead of 'K'. Also explain why '' instead of "".
 ---
-## Index ???? 
+## Index 
 ---
 
 - Basics:
@@ -412,6 +408,7 @@ func main() {
 
 __basic-types.go__
 
+// Use a more adecuate Rune example instead of 'K'. Also explain why '' instead of "".
 
 ```go
 
@@ -547,7 +544,6 @@ func main() {
 	fmt.Println("Cisco rocks ?", ciscoRocks)
 
 }
-
 
 ```
 
