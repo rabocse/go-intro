@@ -686,7 +686,66 @@ __switch.go__
 
 ```go
 
+package main
 
+import (
+	"fmt"
+	"time"
+)
+
+func main() {
+
+	fmt.Println(" ")
+	fmt.Println("=============================== 1- Switch ===========================================")
+
+	// Switch case
+
+	num := 1
+
+	fmt.Print("Write ", num, " as ")
+
+	switch num {
+
+	case 1:
+		fmt.Println("\"one\"")
+	case 2:
+		fmt.Println("\"two\"")
+	case 3:
+		fmt.Println("three")
+	}
+
+	fmt.Println(" ")
+	fmt.Println("================= 2.1- Switch with no condition =======================")
+
+	// Switch with no condition = switch true
+
+	number := 500
+
+	switch false {
+
+	case number < 100:
+		fmt.Println("The number is less than 100")
+
+	case number > 100:
+		fmt.Println("The number is higher than 100")
+	default:
+		fmt.Println("The number is 100")
+	}
+
+	fmt.Println(" ")
+	fmt.Println("=========== 2.2- Switch with no condition =============================")
+
+	t := time.Now()
+	switch {
+	case t.Hour() < 12:
+		fmt.Println("Good morning!")
+	case t.Hour() < 17:
+		fmt.Println("Good afternoon.")
+	default:
+		fmt.Println("Good evening.")
+	}
+
+}
 
 ```
 
@@ -694,9 +753,101 @@ __functions.go__
 
 ```go
 
+package main
+
+import (
+	"fmt"
+)
+
+// 1- Function with return.
+func double(x float32) float32 {
+
+	return x * 2
+}
+
+// 2- Function without return.
+func doublePrint(x float32) {
+
+	fmt.Println(x * 2)
+}
+
+// 3- Func with two arguments and one return
+func sum(a float32, b float32) float32 {
+
+	return a + b
+}
+
+// 4- func with two arguments and no return
+func sub(a float32, b float32) {
+
+	fmt.Println(a - b)
+}
+
+func main() {
+
+	fmt.Println("============================ 1- double ============================")
+
+	y := double(3.5)
+	fmt.Println(y)
+
+	fmt.Println("============================ 2- doublePrint ======================")
+
+	doublePrint(10)
+
+	fmt.Println("============================ 3- sum ==============================")
+
+	totalSum := sum(35, 67)
+	fmt.Println(totalSum)
+
+	fmt.Println("============================ 4- sub ==============================")
+
+	sub(100, 10)
+
+}
 
 
 ```
+
+
+
+__function-with_mult-return.go__
+
+```go
+
+package main
+
+import "fmt"
+
+func display(a float32, b float32) (c, d float32) {
+
+	item1 := a
+	item2 := b
+
+	return item1, item2
+}
+
+func main() {
+
+	fmt.Println("============ Getting both results ====================")
+	fmt.Println(" ")
+	result1, result2 := display(29, 31)
+
+	fmt.Println(result1)
+	fmt.Println(result2)
+
+	fmt.Println("============ Ignoring one result ====================")
+	fmt.Println(" ")
+
+	result3, _ := display(37, 75)
+
+	fmt.Println(result3)
+	// fmt.Println(result4)
+
+}
+
+
+```
+
 
 __Defer (pending)__
 

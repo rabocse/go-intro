@@ -28,15 +28,6 @@ func sub(a float32, b float32) {
 	fmt.Println(a - b)
 }
 
-// 5-  Function with multiple returns
-func display(a float32, b float32) (c, d float32) {
-
-	item1 := a
-	item2 := b
-
-	return item1, item2
-}
-
 func main() {
 
 	fmt.Println("============================ 1- double ============================")
@@ -56,12 +47,5 @@ func main() {
 	fmt.Println("============================ 4- sub ==============================")
 
 	sub(100, 10)
-
-	fmt.Println("============================ 5- display ===========================")
-
-	result1, result2 := display(29, 31) // Provide, blank identifier example.
-
-	fmt.Println(result1)
-	fmt.Println(result2)
 
 }

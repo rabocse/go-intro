@@ -12,11 +12,11 @@ func main() {
 
 	// Switch case
 
-	i := 1
+	num := 1
 
-	fmt.Print("Write ", i, " as ")
+	fmt.Print("Write ", num, " as ")
 
-	switch i {
+	switch num {
 
 	case 1:
 		fmt.Println("\"one\"")
@@ -31,9 +31,9 @@ func main() {
 
 	// Switch with no condition = switch true
 
-	number := 100
+	number := 500
 
-	switch true {
+	switch false {
 
 	case number < 100:
 		fmt.Println("The number is less than 100")
