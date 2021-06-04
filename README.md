@@ -100,6 +100,8 @@ func main() {
 	fmt.Printf("Now you have %g problems. \n ", math.Sqrt(16)) 
 }
 ```
+- Import name vs Import path.
+- Example below shows the import path reveals the directory path where rand package is located.
 
 ![ImportPath](https://github.com/rabocse/go-intro/blob/dev/pictures/ImportPath.png) 
 
@@ -121,7 +123,11 @@ func main() {
 	fmt.Println(math.Pi)
 }
 
+
 ```
+- Notice how all the first letters from the constants are capitalized in const.go.
+- If changed to "pi" (instead of "Pi"), the constant would become _unexported_.
+
 ![ExportedPi](https://github.com/rabocse/go-intro/blob/dev/pictures/ExportedPi.png)
 
 <p>&nbsp;</p>
@@ -150,6 +156,7 @@ func main() {
 
 
 ```
+![ClassicFunction](https://github.com/rabocse/go-intro/blob/dev/pictures/ClassicFunction.png)
 
 __multiple-results.go__
 
@@ -190,6 +197,7 @@ func main() {
 
 ```
 
+![MultipleOutputs](https://github.com/rabocse/go-intro/blob/dev/pictures/MultipleOutputs.png)
 
          
 __variables.go__
