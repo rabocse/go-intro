@@ -1,20 +1,48 @@
-# __Intro to Go__
----
 
 ![Intro to Go](https://github.com/rabocse/go-intro/blob/dev/pictures/IntroToGo.png)    
 
 PENDING LIST:
 
-// Picture needs to be replaced !!!! 
+
 // Use a more adecuate Rune example instead of 'K'. Also explain why '' instead of "".
 ---
 ## Index ???? 
 ---
 
+- Basics:
+	- hello.go
+	- packages.go
+	- imports.go
+	- exported-name.go
+	- functions.go
+    	- multiple-results.go
+	- variables.go
+    	- variables-with-initializers.go
+    	- short-variable-declaration.go
+	- basic-types.go
+	- zero-value.go
+	- type-conversions.go
+	- type-inference.go
+	- constants.go
+  
+- Flowcontrol:
+    - for.go
+        - for-continued.go
+        - while.go
+        - forever.go
+    - if.go
+        - if-with-a-short-declartion.go
+    - switch.go
+    - functions.go
+        - blank-identifier.go
+        - error-handling.go // NOT DEFINED !!!!!!!!!!!!!
+    - defer.go
+    - stacking.defers.go
+	
 
 
 ---
-### __1-Basics__
+## __1-Basics__
 ---
 
 __hello.go__
@@ -524,7 +552,7 @@ func main() {
 ```
 
 ---
-### __2-Flowcontrol__
+## __2-Flowcontrol__
 ---
 
 
