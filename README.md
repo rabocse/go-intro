@@ -54,7 +54,7 @@
 - Syntactically "similar" to C. 
 - Memory safety, garbage collection.
 - Concurrency.
-- ["Go is the most _pythonic_ language". By Guido van Rossum (Inventor of Python)](https://www.youtube.com/watch?v=aYbNh3NS7jA&t=1471s) 
+- ["Go is the most _pythonic_ language"](https://www.youtube.com/watch?v=aYbNh3NS7jA&t=1471s) By Guido van Rossum (Inventor of Python)
 
 
 ---
