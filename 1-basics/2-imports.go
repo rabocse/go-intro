@@ -7,6 +7,5 @@ import (
 
 func main() {
 
-	fmt.Printf("Now you have %g problems. \n ", math.Sqrt(16)) // What is %g ? Why now Printf instead of Println ?
-	// Why \n ?
+	fmt.Printf("Now you have %g problems. \n ", math.Sqrt(16))
 }

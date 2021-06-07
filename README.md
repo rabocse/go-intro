@@ -47,6 +47,7 @@
 ---
 ## __0-Go(Golang)__
 ---
+<p>&nbsp;</p>
 
 - "Golang" is a nickname. "Go" is the official name.
 - __Statically typed__.
@@ -56,7 +57,7 @@
 - Concurrency.
 - ["Go is the most _pythonic_ language"](https://www.youtube.com/watch?v=aYbNh3NS7jA&t=1471s) By Guido van Rossum (Inventor of Python)
 
-
+<p>&nbsp;</p>
 ---
 ## __1-Basics__
 ---

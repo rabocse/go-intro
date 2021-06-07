@@ -8,6 +8,7 @@ func main() {
 
 	sum := 1
 
+	// "for" loop without "init" and "post"
 	for sum < 10 {
 		sum += sum
 		fmt.Println(sum)
@@ -16,9 +17,3 @@ func main() {
 	fmt.Println("======================= TOTAL =================================")
 	fmt.Println(sum)
 }
-
-/*
-
-"for" loop without "init" and "post"
-
-*/

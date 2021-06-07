@@ -12,7 +12,7 @@ func printB4() string {
 
 func main() {
 
-	var num int = 50 // Change the value to play with the condition num > 100
+	var num int = 500 // Change the value to play with the condition num > 100
 
 	if delimiter := printB4(); num > 100 {
 

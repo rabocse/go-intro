@@ -26,8 +26,3 @@ INIT: Executed before the first iteration
 CONDITION: Evaluated before every iteration
 POST: Executed at the end of every iteration
 
-
-
-Note: Unlike other languages like C, Java, or JavaScript there are no parentheses surrounding the three components of the for statement and the braces { } are always required.
-
-*/
