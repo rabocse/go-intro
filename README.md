@@ -58,6 +58,7 @@
 - ["Go is the most _pythonic_ language"](https://www.youtube.com/watch?v=aYbNh3NS7jA&t=1471s) By Guido van Rossum (Inventor of Python)
 
 <p>&nbsp;</p>
+
 ---
 ## __1-Basics__
 ---
