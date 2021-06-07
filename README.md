@@ -9,6 +9,7 @@
 ---
 <p>&nbsp;</p>
 
+- Go (Golang)
 - Basics:
 	- hello.go
 	- packages.go
@@ -42,6 +43,19 @@
 
 <p>&nbsp;</p>
 <p>&nbsp;</p>
+
+---
+## __0-Go(Golang)__
+---
+
+- "Golang" is a nickname. "Go" is the official name.
+- __Statically typed__.
+- __Compiled__
+- Syntactically "similar" to C. 
+- Memory safety, garbage collection.
+- Concurrency.
+- !["Go is the most _pythonic_ language". By Guido van Rossum (Inventor of Python)](https://www.youtube.com/watch?v=aYbNh3NS7jA&t=1471s) 
+
 
 ---
 ## __1-Basics__
