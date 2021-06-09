@@ -815,7 +815,7 @@ func main() {
 
 	number := 500
 
-	switch false {
+	switch true {
 
 	case number < 100:
 		fmt.Println("The number is less than 100")
