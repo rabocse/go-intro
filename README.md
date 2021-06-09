@@ -50,6 +50,7 @@
 <p>&nbsp;</p>
 
 - "Golang" is a nickname. "Go" is the official name.
+- Designed at __Google__ by _Robert Griesemore_, _Rob Pike_ and _Ken Thompson_.
 - __Statically typed__.
 - __Compiled__
 - Syntactically "similar" to C. 
@@ -124,7 +125,7 @@ func main() {
 }
 ```
 - Import name vs Import path.
-- Example below shows the import path reveals the directory path where rand package is located.
+- Example below shows that the import path reveals the directory path where "rand" package is located.
 
 ![ImportPath](https://github.com/rabocse/go-intro/blob/dev/pictures/ImportPath.png) 
 
@@ -222,6 +223,11 @@ func main() {
 }
 
 ```
+- The blank identifier could be used in case of wanting to ignore one return value: 
+  
+  ```go
+   total, _ := calc(-5, 5) 
+   ```
 
 ![MultipleOutputs](https://github.com/rabocse/go-intro/blob/dev/pictures/MultipleOutputs.png)
 
